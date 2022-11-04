@@ -1,0 +1,84 @@
+body
+{
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form
+{
+    background-color: rgb(31, 30, 30);
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form input[type="user"],
+form input[type="senha"]
+{
+    width: 60%;
+    height: 17px;
+    background-color: rgb(31, 30, 30);
+    border: 1px solid rgb(177, 177, 177);
+    padding-left: 6px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+form input[type="entrar"]
+{
+    width: 30%;
+    text-align: center;
+    height: 15px;
+    cursor: pointer;
+    background: #24f582;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    position: absolute;
+    left: 15.5%;
+}
+
+form input[type="entrar"]:hover
+{
+    background-color: rgb(180, 255, 205);
+}
+
+form input[type="senha"]:focus
+{
+    outline: 0;
+}
+
+form input[type="user"]:focus
+{
+    outline: 0;
+}
+
+form input[type="senha"]:focus
+{
+    outline: 0;
+}
+
+form h3[type="u"]
+{
+    position: absolute;
+    color: rgb(199, 199, 199);
+    font-size: 16.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 16%;
+    transform: translate(-0%, -150%);
+}
+
+
+form h3[type="s"]
+{
+    position: absolute;
+    color: rgb(199, 199, 199);
+    font-size: 15.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 20%;
+    transform: translate(-0%, -150%);
+}
